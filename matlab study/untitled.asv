@@ -1,0 +1,23 @@
+a=[1 2;2 1];
+b = a^-1;
+disp(b)
+x1 = [0:0.1:10];x2 = [1:0.1:5];
+ y1 = sin(x1);y2 = cos(x2);
+ plot(x1,y1,'-r.',x2,y2,'-b.');
+xlim([])
+
+%  t = [0:0.1:10*pi]
+%  x = sin(t)+t.*cos(t)
+%  y = cos(t)-t.*sin(t)
+%  z = t
+%  plot3(x,y,z)
+
+
+%  [x,y]=meshgrid(0:0.1:2,1:0.1:3)
+%  z=(x-1).^2+(y-2).^2-1
+%  subplot(2,2,1);meshc(x,y,z)
+%  subplot(2,2,2);meshz(x,y,z)
+%  subplot(2,2,3);surfc(x,y,z)
+%  subplot(2,2,4);surfl(x,y,z)
+
+ 
